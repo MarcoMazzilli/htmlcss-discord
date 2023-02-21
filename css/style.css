@@ -7,84 +7,117 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+/* ----START BUTTON DECORATION---- */
 
 .button {
-  border-radius: 20px;
+  border-radius: 25px;
+  padding: 10px 20px;
   border: 1px solid rgba(0, 0, 0, 0);
-  padding: 10px 15px;
   cursor: pointer;
+  font-size: 1.3rem;
+}
+button i {
+padding: 0 3px;
+font-weight: 0.8rem;
 }
 
-.button a {
-  text-decoration: none;
+button.white {
+  background-color: white;
   color: black;
 }
+
+button.dark {
+  background-color: rgb(35, 39, 42);
+  color: white;
+}
+
+
+/* ----END BUTTON DECORATION---- */
 
 
 /* ----HEADER START----- */
 
 header {
-  background-color:rgb(49,97,224);
+  background-color: rgb(37, 94, 233);
+  height: 70px;
 }
 
 header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  align-self: center;
   width: 70%;
-  padding: 5px;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   margin: 0 auto;
+}
+header button.white {
+  font-size: 1rem;
 }
 
 /* ----START NAV---- */
+nav {
+  height: 100%;
+}
 .container ul {
+  height: 100%;
   display: flex;
+  align-items: center;
   list-style: none;
   flex-wrap: wrap;
 }
 
 .container ul li a {
   color: white;
-  font-weight: 400;
   text-decoration: none;
-  margin-right: 50px;
+  margin-right: 30px;
+  font-size: 1.3rem;
 }
+
 .container ul li a:hover {
   text-decoration: underline;
 }
+
 /* ----END NAV---- */
-/* ----HEADER END----- */
-
-
 /* ----JUMBOTRONE START----- */
 
 .jumbotrone {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center ;
-  min-height: 350px;
-  background-color: rgb(0, 0, 139);
+  min-height: 500px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: top;
 }
 
-.jumbotrone .jumbotrone-section {
+.jumbotrone-section {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 60%;
-  min-height: 50%;
-  background-color: rgb(238, 130, 238);
+  width: 40%;
+  color: white;
   text-align: center;
+  margin-top: 100px;
 }
+
+.jumbotrone-section > h1 {
+  font-size: 3rem;
+  margin-bottom: 70px;
+}
+
+.jumbotrone-section > p {
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
 
 .jumbotrone .jumbotrone-nav button {
   margin-right: 30px;
-  padding: 10px;
 }
 
 /* ----JUMBOTRONE END----- */
+/* ----HEADER END----- */
 
 /* ----MAIN START----- */
 
@@ -130,6 +163,7 @@ main .container.download {
   min-height: 500px;
   background-color: azure;
 }
+
 /* ----MAIN END----- */
 
 /* ----FOOTER START----- */
