@@ -225,12 +225,7 @@ footer .container-top {
   margin-bottom: 30px;
 }
 
-.container-top > div {
-  border: 1px solid rgb(0, 0, 0);
-}
-
 .container-top > .col{
-  border: 1px solid black;
   height: 100%;
   width: 15%;
 }
