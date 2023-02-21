@@ -31,6 +31,11 @@ button.dark {
   color: white;
 }
 
+button.violet {
+  background-color: rgb(142, 161, 225);
+  color: white;
+}
+
 
 /* ----END BUTTON DECORATION---- */
 
@@ -123,8 +128,7 @@ nav {
 /* ----MAIN START----- */
 
 main section {
-  padding: 200px 0;
-  margin-bottom: 100px;
+  padding: 150px 0;
 }
 
 main section.white-bg {
@@ -142,21 +146,19 @@ main section.gray-bg {
 main .container {
   display: flex;
   width: 70%;
+  max-width: 1200px;
   height: 600px;
   margin: auto;
-  background-color: azure;
 }
 
 main .container .content-left {
   width: 60%;
   height: 100%;
-  background-color: aqua;
 }
 
 main .container .content-right {
   height: 100%;
   width: 40%;
-  color: rgb(35, 39, 42);
   padding: 40px 20px;
 }
 
@@ -171,17 +173,39 @@ main .container .content-right {
   line-height: 2rem;
   }
 
-main .container.download {
+.sharing .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   text-align: center;
   width: 70%;
-  min-height: 500px;
-  background-color: azure;
+  height: 100%;
 }
 
+.sharing h3 {
+  font-size: 3rem;
+  color: rgb(35, 39, 42);
+  margin-bottom: 20px;
+}
+
+.sharing .content {
+  padding: 30px;
+}
+
+
+.sharing .content.footer {
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+
+.sharing h6 {
+font-size: 1.7rem;
+color: rgb(35, 39, 42);
+margin-bottom: 50px;
+padding: 10px;
+}
 /* ----MAIN END----- */
 
 /* ----FOOTER START----- */
