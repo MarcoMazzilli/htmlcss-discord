@@ -211,26 +211,26 @@ padding: 10px;
 /* ----FOOTER START----- */
 
 footer {
-  background-color: rgb(14, 29, 43);
-  padding: 20px 0;
+  background-color: rgb(35, 39, 42);
+  padding: 100px 0;
 }
 
 footer .container-top {
   display: flex;
   height: 100%;
   width: 70%;
+  max-width: 1200px;
   height: 400px;
-  background-color: brown; /*DEBUG*/
   margin: auto;
   margin-bottom: 30px;
 }
 
 .container-top > div {
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .container-top > .col{
-  background-color: rgb(32, 178, 170);
+  border: 1px solid black;
   height: 100%;
   width: 15%;
 }
@@ -238,8 +238,25 @@ footer .container-top {
 .container-top > .col.social {
 height: 100%;
 width: 40%;
-background-color: rgb(240, 128, 128);
+color: white;
 }
+
+footer .col.social h2 {
+  font-size: 2.5rem;
+  color: rgb(114, 137, 219);
+  margin-bottom: 20px;
+}
+
+footer .col.social img {
+  width: 30px;
+  margin-right: 10px;
+}
+.icons i {
+  padding-top: 20px;
+  margin-right: 20px;
+  font-size: 1.8rem;
+}
+
 
 footer .container-bottom {
   display: flex;
