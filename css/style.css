@@ -264,23 +264,26 @@ footer .col.social img {
   margin-right: 20px;
   font-size: 1.8rem;
 }
+
 /* END COL SOCIAL */
 
-/* START COL PRODUCT */
+/* START COL STYLE*/
 
-.col.product ul li {
+.col ul li {
   text-decoration: none;
   list-style: none;
   padding: 10px 0;
 }
 
-.col.product ul li a {
+.col ul li a {
   color: white;
   text-decoration: none;
   font-size: 0.8rem;
 }
 
-/* START COL PRODUCT */
+
+
+/* END COL STYLE */
 
 
 
