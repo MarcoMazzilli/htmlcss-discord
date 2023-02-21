@@ -55,6 +55,7 @@ header .container {
   align-items: center;
   margin: 0 auto;
 }
+
 header button.white {
   font-size: 1rem;
 }
@@ -63,6 +64,7 @@ header button.white {
 nav {
   height: 100%;
 }
+
 .container ul {
   height: 100%;
   display: flex;
@@ -118,7 +120,6 @@ nav {
   margin-bottom: 50px;
 }
 
-
 .jumbotrone .jumbotrone-nav button {
   margin-right: 30px;
 }
@@ -165,13 +166,13 @@ main .container .content-right {
 .content-right > h3 {
   font-size: 3.5rem;
   margin-bottom: 30px ;
-
 }
+
 .content-right > p {
   font-size: 1.2rem;
   text-align: left;
   line-height: 2rem;
-  }
+}
 
 .sharing .container {
   display: flex;
@@ -192,13 +193,11 @@ main .container .content-right {
   padding: 30px;
 }
 
-
 .sharing .content.footer {
   background-image: url(../img/stars.svg);
   background-repeat: no-repeat;
   background-position: center top;
 }
-
 
 .sharing h6 {
 font-size: 1.7rem;
@@ -206,6 +205,7 @@ color: rgb(35, 39, 42);
 margin-bottom: 50px;
 padding: 10px;
 }
+
 /* ----MAIN END----- */
 
 /* ----FOOTER START----- */
