@@ -276,22 +276,22 @@ footer .col.social img {
   font-size: 0.8rem;
 }
 
-
-
 /* END COL STYLE */
 
-
-
+/* START FOOTER CONTAINER BOTTOM*/
 
 footer .container-bottom {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   width: 70%;
   min-height: 100%;
   margin: auto;
-  background-color: aquamarine;
-  border-top: 5px solid lightblue;
-  padding: 10px;
+  border-top: 2px solid rgb(114, 137, 219);
+  padding: 20px 0;
+}
+
+footer .container-bottom img {
+  width: 150px;
 }
