@@ -129,7 +129,9 @@ nav {
 /* ----MAIN START----- */
 
 main section {
-  padding: 150px 0;
+  padding-top: 150px;
+  max-width: 2440px;
+  margin: 0 auto;
 }
 
 main section.white-bg {
@@ -137,30 +139,32 @@ main section.white-bg {
 }
 
 main section.gray-bg {
-  background-color: rgb(246, 246, 246)
-}
-
-.gray-bg.channel .content-left {
-  text-align: end;
+  background-color:rgb(195, 195, 195)
 }
 
 main .container {
   display: flex;
-  width: 70%;
+  flex-wrap: nowrap;
+  min-width: 70%;
   max-width: 1200px;
-  height: 600px;
-  margin: auto;
+  min-height: 600px;
+  margin: auto ;
+  padding: 50px;
 }
 
-main .container .content-left {
-  width: 60%;
-  height: 100%;
+.container .content-left {
+  min-width: 60%;
+  min-height: 100%;
 }
 
-main .container .content-right {
-  height: 100%;
+.container .content-right {
   width: 40%;
-  padding: 40px 20px;
+  min-height: 100%;
+}
+
+.gray-bg.channel .container {
+display: flex;
+flex-direction: row-reverse;
 }
 
 .content-right > h3 {
@@ -172,6 +176,26 @@ main .container .content-right {
   font-size: 1.2rem;
   text-align: left;
   line-height: 2rem;
+}
+
+main .wave {
+margin-top: 50px;
+}
+
+main .white-bg .wave  {
+min-height: 100px;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url(../img/wave.svg);
+filter: invert(88%) sepia(0%) saturate(1470%) hue-rotate(15deg) brightness(90%) contrast(90%)
+}
+
+main .gray-bg .wave {
+  min-height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/wave.svg);
+  filter: invert(100%) sepia(98%) saturate(0%) hue-rotate(329deg) brightness(102%) contrast(104%);
 }
 
 .sharing .container {
