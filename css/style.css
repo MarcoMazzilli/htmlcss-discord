@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 /* ----START BUTTON DECORATION---- */
 
@@ -78,6 +78,8 @@ nav {
 }
 
 /* ----END NAV---- */
+/* ----HEADER END----- */
+
 /* ----JUMBOTRONE START----- */
 
 .jumbotrone {
@@ -115,28 +117,32 @@ nav {
 .jumbotrone .jumbotrone-nav button {
   margin-right: 30px;
 }
-
 /* ----JUMBOTRONE END----- */
-/* ----HEADER END----- */
+
 
 /* ----MAIN START----- */
 
 main section {
-  padding: 30px 0;
+  padding: 200px 0;
+  margin-bottom: 100px;
 }
 
 main section.white-bg {
-  background-color: rgb(167, 167, 167);
+  background-color: white;
 }
 
 main section.gray-bg {
-  background-color: rgb(41, 41, 41);
+  background-color: rgb(246, 246, 246)
+}
+
+.gray-bg.channel .content-left {
+  text-align: end;
 }
 
 main .container {
   display: flex;
   width: 70%;
-  height: 500px;
+  height: 600px;
   margin: auto;
   background-color: azure;
 }
@@ -144,14 +150,26 @@ main .container {
 main .container .content-left {
   width: 60%;
   height: 100%;
-  background-color: rgb(30, 144, 255);
+  background-color: aqua;
 }
 
 main .container .content-right {
   height: 100%;
   width: 40%;
-  background-color: rgb(255, 192, 203);
+  color: rgb(35, 39, 42);
+  padding: 40px 20px;
 }
+
+.content-right > h3 {
+  font-size: 3.5rem;
+  margin-bottom: 30px ;
+
+}
+.content-right > p {
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 2rem;
+  }
 
 main .container.download {
   display: flex;
